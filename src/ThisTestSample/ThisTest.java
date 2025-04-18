@@ -21,7 +21,11 @@ public class ThisTest {
 		ThisTest obj = new ThisTest(10, "ash");
 		System.out.println(obj.name + " " + obj.number);
 		ThisTest obj1 = new ThisTest(11, "atish");
+		ThisTest obj2 = new ThisTest(11, "aaaaaaa");
+
 		System.out.println(obj1.name + " " + obj1.number);
+		System.out.println(obj1.name + " " + obj2.number);
+
 
 	}
 }
